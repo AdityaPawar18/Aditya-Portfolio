@@ -1,0 +1,70 @@
+import React from "react";
+import "./card.scss";
+
+const SinglePortfolio = ({
+  id,
+  technologies,
+  title,
+  info,
+  image,
+  description,
+  github,
+  deployed,
+  show = true,
+}) => {
+  return (
+    <div className="card" style={{ display: !show ? "none" : "" }} key={id}>
+      <span className="icon">
+        <img src={image} alt={title} loading="lazy" className="img-card" />
+      </span>
+
+      <h4>{title}</h4>
+
+      <div className="see-live">
+        {github ? (
+          <a href={github} target="_blank" rel="noreferrer">
+            Github
+          </a>
+        ) : (
+          <span className="WordPress">WordPress</span>
+        )}
+
+        {/* <a href={deployed} target="_blank" rel="noreferrer">
+          See live
+        </a> */}
+      </div>
+
+      <h6>{technologies}</h6>
+
+      <h5 className="description-list" style={{ marginBottom: "2%" }}>
+        {info}
+      </h5>
+
+      <ul className="description-list">{description}</ul>
+
+      <div className="shine"></div>
+      <div className="background">
+        <div className="tiles">
+          <div className="tile tile-1"></div>
+          <div className="tile tile-2"></div>
+          <div className="tile tile-3"></div>
+          <div className="tile tile-4"></div>
+
+          <div className="tile tile-5"></div>
+          <div className="tile tile-6"></div>
+          <div className="tile tile-7"></div>
+          <div className="tile tile-8"></div>
+
+          <div className="tile tile-9"></div>
+          <div className="tile tile-10"></div>
+        </div>
+
+        <div className="line line-1"></div>
+        <div className="line line-2"></div>
+        <div className="line line-3"></div>
+      </div>
+    </div>
+  );
+};
+
+export default SinglePortfolio;
