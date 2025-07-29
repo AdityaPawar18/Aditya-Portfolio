@@ -11,15 +11,17 @@
   
     "id": "1"
   },
-  {
-    "title": "Blood Bank Management System",
-    "image": "https://res.cloudinary.com/dtbt6r0ft/image/upload/v1753023022/blood_w9gzka.png",
+   {
+    "title": "Placemates-Elevating Career Campus",
+    "image": "https://res.cloudinary.com/dtbt6r0ft/image/upload/v1753516377/placemates_qmg7cp.png",
     "info": "This is a manufacturing engineering and supply chain management company. This website provides information about their business.",
     "description": [
-    "The BloodBank Management System is a web-based application developed in PHP to streamline the process of storing and managing blood donor data for a real blood bank. This system enables easy tracking of donor information, blood types, donation history, and other critical data, ensuring efficient and effective blood donation management. The project aims to improve the overall operations of blood banks by providing a reliable and user-friendly platform for administrators."
+"Designed and developed a website to serve as centralized platform connecting students and alumni, where students can access all information about placements and various recruiters.",
+"Tech stack: React.js, Node.js, Express.js are used.",
+"Implemented and integrated RESTful APIs for seamless data communication and dynamic functionality."
     ],
-    "technologies": "PHP | Xampp | HTML | CSS | JavaScript",
-    "github": "https://github.com/AdityaPawar18/BBMS",
+    "technologies": "JAVA | React.js | Node.js | Express.js",
+    "github": "https://github.com/AdityaPawar18/PlaceMates",
     "deployed": "https://www.sourciate.com/",
     "id": "1"
   }
