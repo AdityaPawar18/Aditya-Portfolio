@@ -63,12 +63,12 @@ const Aboutme = () => {
         </h2>
 
         <p ref={paraRef} className="me-para">
-          Welcome to my website! My name is Aditya Pawar, and I am Full Stack
-          Web Developer. An aspiring IT professional passionate about software development and eager to explore technology’s complexities. With strong technical skills and a commitment to continuous learning, I aim to contribute to an innovative, collaborative environment, delivering impactful solutions. I look forward to deepening my expertise and supporting long-term success. 
+         "Welcome to my website! I'm Aditya Pawar, a recent B.Tech IT graduate and Full Stack Developer."
+          An aspiring IT professional passionate about software development and eager to explore technology’s complexities. With strong technical skills and a commitment to continuous learning, I aim to contribute to an innovative, collaborative environment, delivering impactful solutions. I look forward to deepening my expertise and supporting long-term success. 
         </p>
 
         <p ref={paraRef} className="me-para">
-          <span style={{ color: "white" }}>A little bit about me:</span> For over 2.5 years, I've been living in Pune, India and working in the web field where I've gained knowledge about various topics such as networks, database management services, CMS, cloud computing, and more. This website is a way for me to share my knowledge and
+          <span style={{ color: "white" }}>A little bit about me:</span> For over 3.5 years, I've been living in Pune, India and working in the web field where I've gained knowledge about various topics such as networks, database management services, CMS, cloud computing, and more. This website is a way for me to share my knowledge and
           experiences with others who share my passion.
         </p>
 
