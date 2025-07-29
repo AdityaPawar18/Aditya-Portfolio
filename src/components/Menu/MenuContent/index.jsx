@@ -19,7 +19,7 @@ const internalLinks = [
     component: <span>Home</span>,
   },
   {
-    url: "https://drive.google.com/file/d/1oOfERLJe3zoov8yEhzH28mFC4fOP2Vjb/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1PaOrWlA6Iz20OsIZkVOowWAWvAV_ud80/view?usp=sharing",
     component: <span>Resume</span>,
   },
   {
